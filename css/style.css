@@ -1,6 +1,10 @@
+html{
+    width: auto;
+}
 body{
-    background-color: white;
+    background-color: lightgoldenrodyellow;
     text-align: center;
+    
 }
 p{
     text-align: center;
@@ -8,11 +12,14 @@ p{
 h1{
     color: black;
 }
-h2{
-    margin-bottom: 180px;
-    color: black;
+#about{
+    margin-top: 180px;
 }
-button{
-    display: inline-block;
-    color: fuchsia;
+#contact{
+    margin-bottom: 180px;
+}
+h2{
+    margin-top: 180px;
+    color: black;
+    border-bottom: 1px solid black;
 }
