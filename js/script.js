@@ -1,3 +1,4 @@
+/*coment*/
 $(function(){
 
-})　
+})

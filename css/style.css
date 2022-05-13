@@ -2,12 +2,13 @@ html{
     width: auto;
 }
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(110, 224, 250);
     text-align: center;
     
 }
-p{
+p{ 
     text-align: center;
+
 }
 h1{
     font-size:5rem;
@@ -21,7 +22,51 @@ h1{
     margin-bottom: 60rem;
 }
 h2{
-    margin-top: 60rem;
+    margin-top: 30rem;
     color:black;
-    border-bottom: 0.3rem solid olive ;
+    border-bottom: 0.3rem solid gray ;
 }
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+}
+nav li{
+    display: table-cell;
+    min-width: 50px;
+    }
+
+nav a{
+    display: block;
+    width: 100%;
+    text-decoration:none;
+    color: black;
+    padding-bottom: 5px;
+}
+nav li.current{
+    border-bottom: 3px solid #92D050;
+    }
+
+nav li:hover{
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+}
+
+address{
+    font-style: normal;
+}
+h2 #contact {
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+/*coment*/
